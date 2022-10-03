@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Seymour+One&display=swap');
+html,
+body {
+	height: 100%;
+	background-color: #102b0089;
+	color: #fff;
+}
+
+.wrapper {
+	background-color: #102b00;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+	height: 230vh;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+	max-width: 2100px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+::selection{
+	color: rgb(255, 187, 0);
+}
+p::selection {
+	background: rgba(0, 255, 251, 0.141);
+}
+h1::selection {
+	background: rgba(255, 255, 255, 0.201);
+}
+
